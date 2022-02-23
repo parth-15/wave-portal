@@ -1,15 +1,9 @@
-# Basic Sample Hardhat Project
+# Wave portal
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+It is an app that allows you to write a message to me.
 
-Try running some of the following tasks:
+This message is stored on the Ethereum testnet blockchain, and in my generosity, I randomly send some eths to someone that sends a message. Yeah, fake eth 🙂. 
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+I had fun doing this while learning a lot, both on the front end and the smart contract. I was able to listen to events on the blockchain. I was able to add items to the blockchain and read from the blockchain.
+
+I was also able perfectly to handle different exceptions, errors, and warnings in such a way as to give users a very smooth experience. 
